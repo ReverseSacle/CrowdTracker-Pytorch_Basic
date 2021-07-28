@@ -39,7 +39,7 @@
 
 提供的模型权重文件
 ---
-+ **下载：** [->百度网盘(提取码：uouv)](https://pan.baidu.com/share/init?surl=H1Zp8wrTKDk20_DSPAeEkg) -> 默认需放置根目录的best_model文件夹下
++ **下载：** [->百度网盘(提取码：uouv)](https://pan.baidu.com/share/init?surl=H1Zp8wrTKDk20_DSPAeEkg) -> 默认需放置根目录的models文件夹下
 
 基础套件：
 ---
