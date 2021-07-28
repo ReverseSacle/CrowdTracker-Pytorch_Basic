@@ -25,9 +25,10 @@
 ---
 + python3
 + OpenCV
-+ 需要的第三方库 -> 基本为paddle_detection所需要的
++ DCNV2
++ 需要的第三方库 -> 请查看[原作者Github地址](https://github.com/ifzhang/FairMOT)的requirements.txt
 + 运行的测试平台 -> window10
-+ 已经配置好的conda环境(所需要的全部环境的整合) --> **paddle-env下载：**[->(百度网盘(提取码：REVE))](https://pan.baidu.com/s/1hIdoFk4yiX6z1SR_6QMaPA)
++ 已经配置好的conda环境(所需要的全部环境的整合) --> **Fairmot-env下载：**[->(百度网盘(提取码：REVE))](https://pan.baidu.com/s/1V6Xi1jzIOyXUL-m-MWJiNA)
 
 调试运行
 ---
@@ -39,12 +40,6 @@
 提供的模型权重文件
 ---
 + **下载：** [->百度网盘(提取码：REVE)](https://pan.baidu.com/s/1U5AhqkMyocZwIYkKMnSgCg) -> 默认需放置根目录的best_model文件夹下
-
-
-
-关于训练
----
-
 
 基础套件：
 ---
