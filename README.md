@@ -34,7 +34,7 @@
 ---
 + ``` git clone "https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic.git"```
 + 解压Fairmot_env环境到Anaconda3/envs/目录下
-+ 使用pycharm，调用此Fairmot-env环境,再在根目录中创建一个**models**文件夹将下面的模型权重压缩包解压到此文件夹,此外
++ 使用pycharm，调用此Fairmot-env环境,再在根目录中创建一个**models**文件夹将下面的模型权重压缩包解压到此文件夹
 
 
 提供的模型权重文件
