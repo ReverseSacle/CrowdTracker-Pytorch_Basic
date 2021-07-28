@@ -1,6 +1,8 @@
 # FairMOT_Pytorch_Tracker(单摄像头)
 [简体中文](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/README_en.md)
 
+[->Paddle版地址](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
+
 效果预览
 ---
 ![MOT20-01](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/docs/MOT20-01.gif)
