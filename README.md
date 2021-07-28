@@ -40,7 +40,7 @@
 提供的模型权重文件
 ---
 + **下载：** [->百度网盘(提取码：uouv)](https://pan.baidu.com/share/init?surl=H1Zp8wrTKDk20_DSPAeEkg) -> 默认需放置根目录的models文件夹下
-+ **额外缺少的文件**[->百度网盘(提取码：REVE)](https://pan.baidu.com/s/19dJGaZhWjfXdbUAbKRYnPg) -> 放置在```C:\Users\Reverse Sacle\.cache\torch\hub\checkpoints```
++ **额外缺少的文件**[->百度网盘(提取码：REVE)](https://pan.baidu.com/s/19dJGaZhWjfXdbUAbKRYnPg) -> 放置在```C:\Users\User name\.cache\torch\hub\checkpoints```
 
 基础套件：
 ---
