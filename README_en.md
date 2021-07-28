@@ -4,7 +4,7 @@
 
 Address Navigation
 ---
-+ [->Paddle_edtion_address](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/README_en.md)
++ [->Paddle_edtion_address](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic)
 + [->Original_author_Github_address](https://github.com/ifzhang/FairMOT)
 
 Preview
