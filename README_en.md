@@ -32,7 +32,9 @@ Introduction
 
 Provide Model file
 ---
-**Download：** [->Google Drive](https://drive.google.com/file/d/1iqRQjsG9BawIl8SlFomMg5iwkb6nqSpi/view) -> need to put them in  the folder named __models__(root_dir)
++ **Download：** Provided by Original author[->Google Drive](https://drive.google.com/file/d/1iqRQjsG9BawIl8SlFomMg5iwkb6nqSpi/view) -> need to put them in  the folder named __models__(root_dir)
++ **extra Missing file** [->Google Drive](https://drive.google.com/file/d/1sZ0PHOtHkfAHpJ1Na4Ff0SD7NJktFKHq/view?usp=sharing) -> put it in ```C:\Users\User name\.cache\torch\hub\checkpoints```
+
 
 Quickly start
 ---
