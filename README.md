@@ -26,7 +26,7 @@
 + python3
 + OpenCV
 + DCNV2
-+ 需要的第三方库 -> 请查看[原作者Github地址](https://github.com/ifzhang/FairMOT)的requirements.txt
++ 需要的第三方库 -> 请查看[->原作者Github地址](https://github.com/ifzhang/FairMOT)的requirements.txt
 + 运行的测试平台 -> window10
 + 已经配置好的conda环境(所需要的全部环境的整合) --> **Fairmot-env下载：**[->(百度网盘(提取码：REVE))](https://pan.baidu.com/s/1V6Xi1jzIOyXUL-m-MWJiNA)
 
