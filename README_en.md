@@ -2,7 +2,7 @@
 ===
 [简体中文](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/README_en.md)
 
-Address navigation
+Address Navigation
 ---
 + [->Paddle_edtion_address](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
 + [->Original_author_Github_address](https://github.com/ifzhang/FairMOT)
