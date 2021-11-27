@@ -161,7 +161,7 @@ class VideoQt(QWidget):
             print("open file or capturing device error, init again")
             self.reset()
 
-    # The vido function of stop and play(暂停与播放开关)
+    # The video function of stop and play(暂停与播放开关)
     def switch_video(self):
         flag = 0
         if self.flag_for_video_to_display == 1:
