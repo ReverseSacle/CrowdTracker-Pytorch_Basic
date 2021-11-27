@@ -42,7 +42,7 @@
 + **下载：** 由原作者提供[->百度网盘(提取码：uouv)](https://pan.baidu.com/share/init?surl=H1Zp8wrTKDk20_DSPAeEkg) -> 默认需放置根目录的models文件夹下
 + **额外缺少的文件**[->百度网盘(提取码：REVE)](https://pan.baidu.com/s/19dJGaZhWjfXdbUAbKRYnPg) -> 放置在```C:\Users\User name\.cache\torch\hub\checkpoints```
 
-基础套件：
+基础套件
 ---
 + Pyqt5 --> 界面窗口、按钮组、阈值选择、文件选择和进度条
 + Pytorch --> 追踪效果
