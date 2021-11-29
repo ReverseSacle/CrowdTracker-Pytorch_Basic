@@ -87,6 +87,7 @@ class VideoQt(QWidget):
         self.set_root_dir = os.path.dirname(os.path.abspath(__file__)).replace('\\', '/')
         self.set_video_file = self.set_root_dir + '/test.avi'
         self.set_threshold = 0.3
+        self.set_match_threshold = 0.8
         #Depending on how man gpus for you to use and '-1' to cpu(取决于你要使用多少个gpu,'-1'为cpu)
         self.set_use_gpus = '1'
 
@@ -273,6 +274,7 @@ class VideoQt(QWidget):
                        model_path=set_model_path,
                        input_path=None,
                        threshold=self.set_threshold,
+                       match_threshold=self.set_match_threshold,
                        use_gpu=self.set_use_gpus).init()
 
             print('current_use_gpus: ')
@@ -395,6 +397,7 @@ class VideoQt(QWidget):
                            model_path=set_model_path,
                            input_path=None,
                            threshold=self.set_threshold,
+                           match_threshold=self.set_match_threshold,
                            use_gpu=self.set_use_gpus).init()
 
                 print('current_use_gpus: ')
@@ -499,7 +502,7 @@ class VideoQt(QWidget):
 
         try:
             # Set params
-            self.set_threshold = self.threshold_value  # 阈值
+            #self.set_threshold = self.threshold_value  # 阈值
             if os.path.exists(self.video_address):
                 set_video_file = self.video_address
                 flag_predict = 1
@@ -527,6 +530,7 @@ class VideoQt(QWidget):
                        model_path=set_model_path,
                        input_path=set_video_file,
                        threshold=self.set_threshold,
+                       match_threshold=self.set_match_threshold,
                        use_gpu=self.set_use_gpus).init()
             opt.output_path = self.video_output_address
             print('current_use_gpus: ')
