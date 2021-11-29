@@ -27,6 +27,7 @@ set_model_dir = set_current_dir + '/models'
 set_output_path = set_current_dir + '/camera_output_result'
 set_model_path = None
 set_threshold = 0.4
+set_match_threshold = 0.8
 set_camera_id = -1
 if set_input_path == None:
     set_camera_id = 0
@@ -47,6 +48,7 @@ opt = opts(current_dir=set_current_dir,
            model_path=set_model_path,
            input_path=set_input_path,
            threshold=set_threshold,
+           match_threshold=set_match_threshold,
            use_gpu=set_use_gpu).init()
 
 print('current_use_gpus: ')
