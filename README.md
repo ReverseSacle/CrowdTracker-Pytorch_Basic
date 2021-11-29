@@ -48,6 +48,12 @@
 + Pytorch --> 追踪效果
 + Opencv --> 视频和摄像头追踪，播放与暂停
 
+问题解答
+---
+有小伙伴提出dcnv2无法使用等问题。
+对于此问题，本项目已提供了DCNv2的压缩包，解压后切换到DCNv2文件目录内执行```python setup.py install```,执行完后再将DCNv2文件夹设为根目录。
+另外，对于库的路径问题，可在pycharm内将```FairMOT-main,src```文件夹设为根目录即可。
+
 更新日志
 ---
 2021.11.29  添加新分支ByteTrack-Kernel，以ByteTrack核心替换了当前的追踪核心
