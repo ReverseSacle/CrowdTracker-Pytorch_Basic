@@ -18,15 +18,18 @@ from src.lib.tracking_utils import visualization as vis
 from src.lib.datasets.dataset.jde import letterbox
 
 logger.setLevel(logging.INFO)
+
 #set params
 set_current_dir = os.path.dirname(os.path.realpath(__file__)).replace('\\','/')
-set_input_path =  set_current_dir + '/videos/MOT16-03.mp4'
-set_input_file_name = (set_input_path.split('/')[-1]).split('.')[-1]
-set_output_path = set_current_dir + './result'
+set_input_path =  set_current_dir + '/video/MOT16-03.mp4'
+set_input_file_name = (set_input_path.split('/')[-1]).split('.')[0]
+set_output_path = set_current_dir + './video_result/'
 set_model_dir = set_current_dir + '/models'
 set_model_path = None
 set_threshold = 0.4
-#'-1'->cpu,'0','1,2,3'-
+
+#set '-1' to use CPU,set from '0','1' to use the first or second GPU
+#CPU设为'-1',GPU设置例子('0'为第一个GPU,'1'为第二个GPU,以此类推)
 set_use_gpu = '0'
 print('input_path: ' + set_input_path)
 
@@ -48,6 +51,7 @@ print(opt.gpus)
 if opt.output_path:
     mkdir_if_missing(opt.output_path)
 # frame_dir = None if opt.output_format == 'text' else osp.join(result_root, 'frame')
+
 #start to pre_track
 capture = cv2.VideoCapture(set_input_path)
 frame_count = int(capture.get(cv2.CAP_PROP_FRAME_COUNT))
@@ -66,6 +70,7 @@ timer = Timer()
 use_cuda = True
 if set_use_gpu == '-1':
     use_cuda = False
+
 while(True):
     # run tracking
     ret,img0 = capture.read()
