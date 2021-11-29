@@ -45,3 +45,7 @@ Quickly start
 About Function of Buttons
 ---
 + [->What the mean of the button](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_button_function_en.md)
+
+Update Record
+---
+2021.11.29  Update the brach ByteTrack-kernel，replace original mot kernel with bytetrack.
