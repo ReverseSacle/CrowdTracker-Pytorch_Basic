@@ -24,13 +24,15 @@ set_current_dir = os.path.dirname(os.path.realpath(__file__)).replace('\\','/')
 set_input_path =  None
 set_input_file_name = None
 set_model_dir = set_current_dir + '/models'
-set_output_path = set_current_dir + '/output_result'
+set_output_path = set_current_dir + '/camera_output_result'
 set_model_path = None
 set_threshold = 0.4
 set_camera_id = -1
 if set_input_path == None:
     set_camera_id = 0
-#'-1'->cpu,'0','1,2,3'-
+
+#set '-1' to use CPU,set from '0','1' to use the first or second GPU
+#CPU设为'-1',GPU设置例子('0'为第一个GPU,'1'为第二个GPU,以此类推)
 set_use_gpu = '-1'
 print('camera_id: ' + str(set_camera_id))
 
@@ -59,6 +61,8 @@ print('frame_count', frame_count)
 
 frame_rate = 30
 tracker = JDETracker(opt, frame_rate=frame_rate)
+
+#set current time to be the video-file name(设置当前时间为摄像头保存文件名)
 current_time = datetime.datetime.now().strftime('%Y-%m-%d-%H_%M_%S')
 video_name = current_time + '.mp4'
 print('video_name: ' + video_name)
