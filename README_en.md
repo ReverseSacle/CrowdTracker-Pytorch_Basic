@@ -48,4 +48,4 @@ About Function of Buttons
 
 Update Record
 ---
-2021.11.29  Update the brach ByteTrack-kernel，replace original mot kernel with bytetrack.
+2021.11.29  Create a new brach ByteTrack-kernel，replace original mot kernel with bytetrack.
