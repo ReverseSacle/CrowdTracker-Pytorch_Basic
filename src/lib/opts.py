@@ -7,7 +7,7 @@ import os
 import sys
 
 class opts(object):
-  def __init__(self,current_dir,model_path,input_path,threshold,match-threshold,use_gpu):
+  def __init__(self,current_dir,model_path,input_path,threshold,match_threshold,use_gpu):
     self.use_gpu = use_gpu
     self.current_dir = current_dir
     self.parser = argparse.ArgumentParser()
@@ -112,7 +112,7 @@ class opts(object):
     self.parser.add_argument('--val_hie', default=False, help='val hie')
     self.parser.add_argument('--test_hie', default=False, help='test hie')
     self.parser.add_argument('--conf_thres', type=float, default=threshold, help='confidence thresh for tracking')
-    self.parser.add_argument('--match_thres', type=float, default=match-threshold, help='bytetrack-kernel confidence similar-thresh for re-id')
+    self.parser.add_argument('--match_thres', type=float, default=match_threshold, help='bytetrack-kernel confidence similar-thresh for re-id')
     self.parser.add_argument('--det_thres', type=float, default=0.3, help='confidence thresh for detection')
     self.parser.add_argument('--nms_thres', type=float, default=0.4, help='iou thresh for nms')
     self.parser.add_argument('--track_buffer', type=int, default=30, help='tracking buffer')
