@@ -27,6 +27,7 @@ set_output_path = set_current_dir + './video_result/'
 set_model_dir = set_current_dir + '/models'
 set_model_path = None
 set_threshold = 0.4
+set_match_threshold = 0.8
 
 #set '-1' to use CPU,set from '0','1' to use the first or second GPU
 #CPU设为'-1',GPU设置例子('0'为第一个GPU,'1'为第二个GPU,以此类推)
@@ -44,6 +45,7 @@ opt = opts(current_dir=set_current_dir,
            model_path=set_model_path,
            input_path=set_input_path,
            threshold=set_threshold,
+           match_threshold=set_match_threshold,
            use_gpu=set_use_gpu).init()
 opt.output_path = set_output_path
 print('current_use_gpus: ')
