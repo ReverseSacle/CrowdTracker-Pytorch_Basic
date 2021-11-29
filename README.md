@@ -50,4 +50,4 @@
 
 更新日志
 ---
-2021.11.29  更新了分支ByteTrack-Kernel，以ByteTrack核心替换了当前的追踪核心
+2021.11.29  添加了分支ByteTrack-Kernel，以ByteTrack核心替换了当前的追踪核心
