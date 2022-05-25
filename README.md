@@ -3,8 +3,8 @@
 
 地址导航
 ---
-+ [->Paddle版地址](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
-+ [->原作者Github地址](https://github.com/ifzhang/FairMOT)
++ [→Paddle版地址](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
++ [→原作者Github地址](https://github.com/ifzhang/FairMOT)
 
 效果预览
 ---
@@ -17,8 +17,8 @@
 
 相关介绍
 ---
-+ [->制作介绍](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/docs/Making_Introduction_cn.md)
-+ [->软件使用指南](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/docs/The_fuction_of_program_cn.md)
++ [→制作介绍](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/docs/Making_Introduction_cn.md)
++ [→软件使用指南](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/docs/The_fuction_of_program_cn.md)
 
 
 环境要求
@@ -26,9 +26,9 @@
 + python3
 + OpenCV
 + DCNV2
-+ 需要的第三方库 -> 请查看[->原作者Github地址](https://github.com/ifzhang/FairMOT)的requirements.txt
-+ 运行的测试平台 -> window10
-+ 已经配置好的conda环境(所需要的全部环境的整合) --> **Fairmot-env下载：**[->OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh24gf-IZtNYYN4r0?e=qhCxTc?download=1)
++ 需要的第三方库 → 请查看[箭头原作者Github地址](https://github.com/ifzhang/FairMOT)的requirements.txt
++ 运行的测试平台 → window10
++ 已经配置好的conda环境(所需要的全部环境的整合) --> **Fairmot-env下载：**[→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh24gf-IZtNYYN4r0?e=qhCxTc?download=1)
 
 调试运行
 ---
@@ -39,8 +39,8 @@
 
 提供的模型权重文件
 ---
-+ **下载：** 由原作者提供[->OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh22rxkVDfBph2VCM?e=KBA6il?download=1) -> 默认需放置根目录的models文件夹下
-+ **额外缺少的文件**[->OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh2xS1T_M_RBKkTIf?e=Wmgmtd?download=1) -> 放置在```C:\Users\User name\.cache\torch\hub\checkpoints```
++ **下载：** 由原作者提供[→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh22rxkVDfBph2VCM?e=KBA6il?download=1) → 默认需放置根目录的models文件夹下
++ **额外缺少的文件**[→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh2xS1T_M_RBKkTIf?e=Wmgmtd?download=1) → 放置在```C:\Users\User name\.cache\torch\hub\checkpoints```
 
 基础套件
 ---
