@@ -4,8 +4,8 @@
 
 Address Navigation
 ---
-+ [->Paddle_edtion_address](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
-+ [->Original_author_Github_address](https://github.com/ifzhang/FairMOT)
++ [→Paddle_edtion_address](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
++ [→Original_author_Github_address](https://github.com/ifzhang/FairMOT)
 
 Preview
 ---
@@ -22,18 +22,18 @@ Enviroment Requirement
 + Python3
 + OpenCV-python
 + DCNv2
-+ Needed requirements -> All the requirements  in [->Original_author_Github_address](https://github.com/ifzhang/FairMOT)
-+ Test system -> window10
-+ The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [->Google Drive](https://drive.google.com/file/d/1xNADf_ARQnDhKNx1rEOHgXszG2lrSEet/view?usp=sharing)
++ Needed requirements → All the requirements  in [→Original_author_Github_address](https://github.com/ifzhang/FairMOT)
++ Test system → window10
++ The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [→Google Drive](https://drive.google.com/file/d/1xNADf_ARQnDhKNx1rEOHgXszG2lrSEet/view?usp=sharing)
 
 Introduction
 ---
-+ [->Making_Introduction](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_en.md)
++ [→Making_Introduction](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_en.md)
 
 Provide Model file
 ---
-+ **Download：** Provided by Original author[->Google Drive](https://drive.google.com/file/d/1iqRQjsG9BawIl8SlFomMg5iwkb6nqSpi/view) -> need to put them in  the folder named __models__(root_dir)
-+ **extra Missing file** [->Google Drive](https://drive.google.com/file/d/1sZ0PHOtHkfAHpJ1Na4Ff0SD7NJktFKHq/view?usp=sharing) -> put it in ```C:\Users\User name\.cache\torch\hub\checkpoints```
++ **Download：** Provided by Original author[→Google Drive](https://drive.google.com/file/d/1iqRQjsG9BawIl8SlFomMg5iwkb6nqSpi/view) → need to put them in  the folder named __models__(root_dir)
++ **extra Missing file** [→Google Drive](https://drive.google.com/file/d/1sZ0PHOtHkfAHpJ1Na4Ff0SD7NJktFKHq/view?usp=sharing) → put it in ```C:\Users\User name\.cache\torch\hub\checkpoints```
 
 
 Quickly start
@@ -44,7 +44,7 @@ Quickly start
 
 About Function of Buttons
 ---
-+ [->What the mean of the button](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_button_function_en.md)
++ [→What the mean of the button](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_button_function_en.md)
 
 Update Record
 ---
