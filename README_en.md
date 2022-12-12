@@ -1,51 +1,53 @@
-**FairMOT_Pytorch_Tracker(Single Camera)**
-===
-[简体中文](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/README_en.md)
+# CrowdTracker-Pytorch(Single Camera)
 
-Address Navigation
----
+[简体中文](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/README.md) | [English](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/README_en.md)
+
+## Address Navigation
+
 + [→Paddle_edtion_address](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
 + [→Original_author_Github_address](https://github.com/ifzhang/FairMOT)
 
-Preview
----
-![MOT20-01](https://github.com/ReverseSacle/FairMOT_Paddle/blob/main/docs/MOT20-01.gif)
+## Preview
 
-Preview for Interface
----
-![Interface](https://user-images.githubusercontent.com/73418195/126273708-42a9aec3-a07f-4102-aaf2-3a6f5cadf2b5.png)
+![MOT20-01](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/MOT20-01.gif)
 
+## Preview for Interface
 
+![Interface](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/Interface.png)
 
-Enviroment Requirement
----
+## Enviroment Requirement
+
 + Python3
-+ OpenCV-python
++ opencv-python
 + DCNv2
-+ Needed requirements → All the requirements  in [→Original_author_Github_address](https://github.com/ifzhang/FairMOT)
-+ Test system → window10
-+ The provided pkged enviroment(coda enviroment wich have all the needed libs) --> [→Google Drive](https://drive.google.com/file/d/1xNADf_ARQnDhKNx1rEOHgXszG2lrSEet/view?usp=sharing)
++ Had tested system → window10
++ The provided pkged enviroment(coda enviroment that has all the needed libs)  [→Google Drive](https://drive.google.com/file/d/1cOELR0lXD8oJwzMne0kx_PShylMwclBA/view?usp=sharing)
 
-Introduction
----
-+ [→Making_Introduction](https://github.com/ReverseSacle/FairMOT_paddle/blob/main/docs/Making_Introduction_en.md)
+## Introduction
 
-Provide Model file
----
-+ **Download：** Provided by Original author[→Google Drive](https://drive.google.com/file/d/1iqRQjsG9BawIl8SlFomMg5iwkb6nqSpi/view) → need to put them in  the folder named __models__(root_dir)
-+ **extra Missing file** [→Google Drive](https://drive.google.com/file/d/1sZ0PHOtHkfAHpJ1Na4Ff0SD7NJktFKHq/view?usp=sharing) → put it in ```C:\Users\User name\.cache\torch\hub\checkpoints```
++ [→Making_Introduction](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/Making_Introduction_en.md)
 
+## Provided Model file
 
-Quickly start
----
-+ ```git clone "https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic.git"```
-+ Unzip Fairmot_env in Anaconda3/envs/ folder
-+ Use pycharm,choose Fairmot_env enviroment.Then,create a folder named **models**,unzip the file in the __models__ folder.
++ **Download：** Provided by Original author [→Google Drive](https://drive.google.com/file/d/1PRkK0G5-I9t63cT_YgCetKSpxQEecZ7-/view?usp=sharing)  Need to put it into  the folder named `models` in root dir
++ **Extra missing file：** [→Google Drive](https://drive.google.com/file/d/1sZ0PHOtHkfAHpJ1Na4Ff0SD7NJktFKHq/view?usp=sharing)  Put it into  `C:\Users\User name\.cache\torch\hub\checkpoints`
 
-About Function of Buttons
----
-+ [→What the mean of the button](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic/blob/main/docs/The_button_function_en.md)
+## Quickly start
 
-Update Record
----
-2021.11.29  Create a new brach ByteTrack-kernel，replace original mot kernel with bytetrack.
++ `git clone "https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic.git"`
++ Unzip the 7z file of  `CrowdTracker-env` in `./Anaconda3/envs/`
++ Use compiler, like pycharm, where choose the enviroment of CrowdTracker-env on.Then, create a folder named `models` in the root of this project, unzip the beneath mode file into the `models` folder.
+
+## About Construction
+
++ `PyQt5`     →  the interface,the group of button, the choosing bar of threshold value, the choosing bar of GPU, the function of choosing file and the progress bar
++ `Pytorch`  →  the track system of deep-learning
++ `OpenCV` →  the function of tracking (video/camera), the function of playing video and stoping video
+
+## Update Record
+
+2021.11.29  Create a new brach ByteTrack-kernel，replace original mot kernel with bytetrack
+
+2022.12.12  Simplify the source code of ByteTrack-track-kernel and FairMot-track-kernel, which is divided into the source code of interface, video tracking,built-in camera tracking and external camera tracking
+
+ 

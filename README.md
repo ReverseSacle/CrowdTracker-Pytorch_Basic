@@ -1,59 +1,51 @@
-# FairMOT_Pytorch_Tracker(单摄像头)
-[简体中文](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/README.md) | [English](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/README_en.md)
+# CrowdTracker-Pytorch(单摄像头)
 
-地址导航
----
+[简体中文](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/README.md) | [English](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/README_en.md)
+
+## 地址导航
+
 + [→Paddle版地址](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
 + [→原作者Github地址](https://github.com/ifzhang/FairMOT)
 
-效果预览
----
-![MOT20-01](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/docs/MOT20-01.gif)
+## 效果预览
 
-界面预览
----
-![Interface](https://user-images.githubusercontent.com/73418195/126268446-f38053a6-3b1c-4c3f-98c2-afe07030a8ff.png)
+![MOT20-01](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/MOT20-01.gif)
 
+## 界面预览
 
-相关介绍
----
-+ [→制作介绍](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/docs/Making_Introduction_cn.md)
-+ [→软件使用指南](https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic/blob/main/docs/The_fuction_of_program_cn.md)
+![Interface](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/Interface.png)
 
+## 相关介绍
 
-环境要求
----
++ [→制作介绍](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/Making_Introduction_cn.md)
+
+## 环境要求
+
 + python3
-+ OpenCV
-+ DCNV2
-+ 需要的第三方库 → 请查看[箭头原作者Github地址](https://github.com/ifzhang/FairMOT)的requirements.txt
-+ 运行的测试平台 → window10
-+ 已经配置好的conda环境(所需要的全部环境的整合) --> **Fairmot-env下载：**[→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh24gf-IZtNYYN4r0?e=qhCxTc?download=1)
++ opencv-python
++ DCNv2
++ 已运行的测试平台 → window10
++ 已经配置好的conda环境(所需要的全部环境的整合)  [→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIiSrFcXk8xcSq_zLD?e=e51wjQ?download=1)
 
-调试运行
----
-+ ``` git clone "https://github.com/ReverseSacle/FairMOT-Pytorch-Tracker_Basic.git"```
-+ 解压Fairmot_env环境到Anaconda3/envs/目录下
-+ 使用pycharm，调用此Fairmot-env环境,再在根目录中创建一个**models**文件夹将下面的模型权重压缩包解压到此文件夹
+## 调试运行
 
++ ` git clone "https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic.git"`
++ 解压`CrowdTracker-env`环境到`./Anaconda3/envs/`目录下
++ 使用编译器，例如Pycharm，调用此`CrowdTracker-env`环境，再在此根目录中创建一个`models`文件夹，将下面的模型权重压缩包解压到此文件夹中
 
-提供的模型权重文件
----
-+ **下载：** 由原作者提供[→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh22rxkVDfBph2VCM?e=KBA6il?download=1) → 默认需放置根目录的models文件夹下
-+ **额外缺少的文件**[→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh2xS1T_M_RBKkTIf?e=Wmgmtd?download=1) → 放置在```C:\Users\User name\.cache\torch\hub\checkpoints```
+## 提供的模型权重文件
 
-基础套件
----
-+ Pyqt5 --> 界面窗口、按钮组、阈值选择、文件选择和进度条
-+ Pytorch --> 追踪效果
-+ Opencv --> 视频和摄像头追踪，播放与暂停
++ **下载：** 由原作者提供 [→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh22rxkVDfBph2VCM?e=0Tudce?download=1)  默认需放置根目录的models文件夹下
++ **额外缺少的文件：** [→OneDrive](https://1drv.ms/u/s!AlYD8lJlPHCIh2xS1T_M_RBKkTIf?e=iae70F?download=1)  放置在`C:\Users\User name\.cache\torch\hub\checkpoints`
 
-问题解答
----
-有小伙伴提出dcnv2无法使用等问题。
-对于此问题，本项目已提供了DCNv2的压缩包，解压后切换到DCNv2文件目录内执行```python setup.py install```,执行完后再将DCNv2文件夹设为根目录。
-另外，对于库的路径问题，可在pycharm内将```FairMOT-main,src```文件夹设为根目录即可。
+## 基础套件
 
-更新日志
----
++ `PyQt5` 	→  界面窗口、按钮组、阈值选择、GPU选择、文件选择与进度条
++ `Pytorch` →  深度学习追踪系统
++ `OpenCV` →  视频和摄像头追踪，播放与暂停
+
+## 更新日志
+
 2021.11.29  添加新分支ByteTrack-Kernel，以ByteTrack核心替换了当前的追踪核心
+
+2022.12.12  分别将ByteTrack追踪核心与FairMot追踪核心的代码进行了精简化，各将代码拆分成了界面、视频追踪、内置摄像头追踪与外置摄像头追踪
