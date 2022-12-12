@@ -48,6 +48,6 @@
 
 2021.11.29  Create a new brach ByteTrack-kernel，replace original mot kernel with bytetrack
 
-2022.12.12  Simplify the source code of ByteTrack-track-kernel and FairMot-track-kernel, which is divided into the source code of interface, video tracking,built-in camera tracking and external camera tracking
+2022.12.12  Simplify the source code of ByteTrack-track-kernel and FairMot-track-kernel, which is divided into the source code of interface, video tracking,built-in camera tracking and external camera tracking.Fix the error of LINK2001 in the provided compiler enviroment.
 
  
