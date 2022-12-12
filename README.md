@@ -9,11 +9,11 @@
 
 ## 效果预览
 
-![MOT20-01](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/MOT20-01.gif)
+![MOT20-01](./docs/MOT20-01.gif)
 
 ## 界面预览
 
-![Interface](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/Interface.png)
+![Interface](./docs/Interface.png)
 
 ## 相关介绍
 
