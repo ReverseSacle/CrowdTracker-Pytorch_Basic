@@ -1,6 +1,6 @@
 # CrowdTracker-Pytorch(单摄像头)
 
-[简体中文](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/README.md) | [English](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/README_en.md)
+[简体中文](./README.md) | [English](./README_en.md)
 
 ## 地址导航
 
@@ -17,7 +17,7 @@
 
 ## 相关介绍
 
-+ [→制作介绍](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/Making_Introduction_cn.md)
++ [→制作介绍](./docs/Making_Introduction_cn.md)
 
 ## 环境要求
 
