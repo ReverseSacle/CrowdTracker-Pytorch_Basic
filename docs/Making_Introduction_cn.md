@@ -6,7 +6,7 @@
 
 + **Detection and Re_ID**
 
-<img width="707" alt="FairMOT" src="https://user-images.githubusercontent.com/73418195/122189832-d73d5e80-cec3-11eb-8b32-95ef7c8ea3b1.png">
+![FairMOT](./FairMOT.png)
 
 该网络主要为目标检测和重识别一体化。
 对于one-stage跟踪都是基于anchor锚，这造成了提取的特征未与对象中心对齐，例如当两个目标相互靠近时，ahchor的位置就不太准确了。
