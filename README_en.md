@@ -9,11 +9,11 @@
 
 ## Preview
 
-![MOT20-01](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/MOT20-01.gif)
+![MOT20-01](./docs/MOT20-01.gif)
 
 ## Preview for Interface
 
-![Interface](https://github.com/ReverseSacle/CrowdTracker-Pytorch_Basic/blob/main/docs/Interface.png)
+![Interface](./docs/Interface.png)
 
 ## Enviroment Requirement
 
