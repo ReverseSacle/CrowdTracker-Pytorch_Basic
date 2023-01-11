@@ -4,8 +4,8 @@
 
 ## Address Navigation
 
-+ [→Paddle_edtion_address](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
-+ [→Original_author_Github_address](https://github.com/ifzhang/FairMOT)
++ [→Paddle edtion address](https://github.com/ReverseSacle/FairMOT-Paddle-Tracker_Basic)
++ [→FairMot author(Github)](https://github.com/ifzhang/FairMOT)
 
 ## Preview
 
